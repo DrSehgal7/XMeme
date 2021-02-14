@@ -20,7 +20,7 @@ export default class MemesMaker extends Component {
         return(<div>
             {this.props.memes.map(meme => (
             <div className="meme-group">
-             <img src={meme.memeUrl} alt="Hehe Hehe Hehe" width="100" height="200"/>
+             <img src={meme.memeUrl} alt="Hehe Hehe Hehe" width="300" height="250"/>
              <br></br>
                <label>Meme Owner </label>
                <input  type="text"
