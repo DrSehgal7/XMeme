@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+html, body{
+  background-color: aliceblues;
+  color: black
+}
+
+.header{
+  font-size: 39px;
+    /* margin: 0 auto; */
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container{
+  font-family:"Pt Sans", helvetica, sans-serif;
+}
+.form-group{
+  font-family:"Pt Sans", helvetica, sans-serif;
+  background:#FFB6C1;
+  padding: 15px;
+  margin: 0 auto;
+  width: 52%;
+
+}
+.meme-group {
+  font-family: "Pt Sans", helvetica, sans-serif;
+  background: #FFFF66;
+  padding: 15px;
+  margin: 0 auto;
+  /* align-items: center; */
+  margin-bottom: 15px;
+  width: 52%;
+
+  
+
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  background-color: #FFB6C1;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  border: 5px solid #FF69B4;
+  }
+  .btn:hover {
+  background-color:#FF69B4;
+  color: white;
+  
+}
+.edit-box{
+  display: inline-block;
+    width: 40%;
+    /* margin: 0 auto; */
+    margin-left: 169px;
+}
+.edit-btn {
+  background-color: #6495ED;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  border: 5px solid #007FFF;
+  width: 77%
+  }
+  .edit-btn:hover {
+  background-color:#007FFF;
+  color: white;
+  }
+  .submit-box{
+    display: inline-block;
+    width: 40%;
+    /* margin: 0 auto; */
+    margin-left: 169px;
+    margin-top: 10px;
+
+  }
+  
+  
+
